@@ -1,0 +1,67 @@
+{
+  "_from": "bootstrap4c-tageditor",
+  "_id": "bootstrap4c-tageditor@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-zYRryRUiBtb/qrhn6iQ0tAmbpJhmyW9vIG3njOUszgBiQHWv+4ROxzRpAPUVMglx+0rTu3puTw+CWeOaLvkU+Q==",
+  "_location": "/bootstrap4c-tageditor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bootstrap4c-tageditor",
+    "name": "bootstrap4c-tageditor",
+    "escapedName": "bootstrap4c-tageditor",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap4c-tageditor/-/bootstrap4c-tageditor-1.0.3.tgz",
+  "_shasum": "d5c1fa8e46b1e2f4bc5eb3bd23b7cb5b3e340cb2",
+  "_spec": "bootstrap4c-tageditor",
+  "_where": "C:\\xampp\\htdocs\\telemedicine\\assets",
+  "author": {
+    "name": "Martin Haubek",
+    "email": "haubek@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/haubek/bootstrap4c-tageditor/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  },
+  "deprecated": false,
+  "description": "Bootstrap 4 Component - Tageditor",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-strip-css-comments": "^1.2.0",
+    "sass-svg-uri": "^1.0.0"
+  },
+  "homepage": "https://haubek.github.io",
+  "keywords": [
+    "bootstrap",
+    "component",
+    "custom",
+    "tageditor",
+    "sass",
+    "scss",
+    "css"
+  ],
+  "license": "MIT",
+  "main": "dist/css/bootstrap4c-tageditor.css",
+  "name": "bootstrap4c-tageditor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haubek/bootstrap4c-tageditor.git"
+  },
+  "version": "1.0.3"
+}

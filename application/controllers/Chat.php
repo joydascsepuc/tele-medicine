@@ -7,20 +7,8 @@ class Chat extends Admin_Controller {
 	{
 		parent::__construct();
 
-		
-		//Changes of Login Method via requirement
-		$session_data = $this->session->userdata();
-		if($session_data['logged_in'] == TRUE) {
-			if ($session_data['groupID']==3) {
-				redirect('select', 'refresh');
-			}
-			elseif ($session_data['groupID']==4) {
-				redirect('patienthome', 'refresh');
-			}
-			else {
-				redirect('dashboard', 'refresh');
-			}
-		}
+		//Using the base
+		$this->not_logged_in();
 
 		//$this->data['page_title'] = 'Patient';
 	}
